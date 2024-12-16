@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+header .logo h1{
+    font-size: 24px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    margin-left: 20px;
+
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.negocio{
+    background-color: #8ACE00;
+    color: black;
+    padding: 80px 20px;
+    text-align: center;
+}
+.negocio h1{
+    font-size: 48px;
+}
+.negocio p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.negocio button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 30px;
+    background-color: white;
+    border-color: none;
+    color: black;
+    cursor: pointer;
+}
+.tempo{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffe1ee;
+    color: black;
+
+}
+.tempo h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+.tempo-timer{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.benef{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #8ACE00;
+
+}
+.benef h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.benef-item{
+    margin-bottom: 20px;
+}
+.benef-item h3{
+    font-size: 20px;
+}
+.modais{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffe1ee;
+
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.modais-fadein{
+    display: none;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+.modais-fadein p{
+    font-size: 16px;
+    color: #555;
+    
+}
+.contato{
+    text-align: center;
+    padding: 40px 20px;
+
+}
+.contato h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+#formulario{
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+
+}
+.contato input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.contato button{
+    width: 100%;
+    padding: 10px;
+    background-color: #8ACE00;
+    border: none;
+    color: black;
+    font-size: 18px;
+}
+.scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #8ACE00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+
+}
+footer{
+    background-color: #8ACE00;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+
